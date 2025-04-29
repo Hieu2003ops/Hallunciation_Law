@@ -1,0 +1,496 @@
+[2025-04-29T01:29:56,498][INFO ][o.e.x.m.MlDailyMaintenanceService] [LAPTOP-4NETS2LE] triggering scheduled [ML] maintenance tasks
+[2025-04-29T01:29:57,522][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [LAPTOP-4NETS2LE] Deleting expired data
+[2025-04-29T01:29:57,753][INFO ][o.e.x.m.j.r.UnusedStatsRemover] [LAPTOP-4NETS2LE] Successfully deleted [0] unused stats documents
+[2025-04-29T01:29:57,756][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [LAPTOP-4NETS2LE] Completed deletion of expired ML data
+[2025-04-29T01:29:57,757][INFO ][o.e.x.m.MlDailyMaintenanceService] [LAPTOP-4NETS2LE] Successfully completed [ML] maintenance task: triggerDeleteExpiredDataTask
+[2025-04-29T04:16:09,237][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopping ...
+[2025-04-29T04:16:09,272][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] shutting down watcher thread
+[2025-04-29T04:16:09,286][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] watcher service stopped
+[2025-04-29T04:16:09,341][INFO ][o.e.x.w.WatcherService   ] [LAPTOP-4NETS2LE] stopping watch service, reason [shutdown initiated]
+[2025-04-29T04:16:09,346][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-4NETS2LE] [controller/22944] [Main.cc@176] ML controller exiting
+[2025-04-29T04:16:09,348][INFO ][o.e.x.m.p.NativeController] [LAPTOP-4NETS2LE] Native controller process has stopped - no new native processes can be started
+[2025-04-29T04:16:09,355][INFO ][o.e.x.w.t.s.e.TickerScheduleTriggerEngine] [LAPTOP-4NETS2LE] Stopping watcher engine
+[2025-04-29T04:16:09,356][INFO ][o.e.x.w.WatcherLifeCycleService] [LAPTOP-4NETS2LE] watcher has stopped and shutdown
+[2025-04-29T04:16:09,928][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopped
+[2025-04-29T04:16:09,928][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closing ...
+[2025-04-29T04:16:10,159][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closed
+[2025-04-29T10:57:52,469][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] version[9.0.0], pid[18760], build[zip/112859b85d50de2a7e63f73c8fc70b99eea24291/2025-04-08T15:13:46.049795831Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/24/24+36-3646]
+[2025-04-29T10:57:52,502][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] JVM home [C:\ELK\elasticsearch-9.0.0\jdk], using bundled JDK [true]
+[2025-04-29T10:57:52,503][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=CLDR, -Dorg.apache.lucene.vectorization.upperJavaFeatureVersion=24, -Des.distribution.type=zip, -Des.java.type=bundled JDK, --enable-native-access=org.elasticsearch.nativeaccess,org.apache.lucene.core, --enable-native-access=ALL-UNNAMED, --illegal-native-access=deny, -XX:ReplayDataFile=logs/replay_pid%p.log, -Des.entitlements.enabled=true, -XX:+EnableDynamicAgentLoading, -Djdk.attach.allowAttachSelf=true, --patch-module=java.base=lib\entitlement-bridge\elasticsearch-entitlement-bridge-9.0.0.jar, --add-exports=java.base/org.elasticsearch.entitlement.bridge=org.elasticsearch.entitlement,java.logging,java.net.http,java.naming,jdk.net, -XX:+UseG1GC, -Djava.io.tmpdir=C:\Users\ADMIN\AppData\Local\Temp\elasticsearch, --add-modules=jdk.incubator.vector, -Dorg.apache.lucene.store.defaultReadAdvice=normal, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,level,pid,tags:filecount=32,filesize=64m, -Xms3976m, -Xmx3976m, -XX:MaxDirectMemorySize=2084569088, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, --module-path=C:\ELK\elasticsearch-9.0.0\lib, --add-modules=jdk.net, --add-modules=jdk.management.agent, --add-modules=ALL-MODULE-PATH, -Djdk.module.main=org.elasticsearch.server]
+[2025-04-29T10:57:52,505][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] Default Locale [en_US]
+[2025-04-29T10:57:54,247][INFO ][o.e.n.NativeAccess       ] [LAPTOP-4NETS2LE] Using [jdk] native provider and native methods for [Windows]
+[2025-04-29T10:57:54,868][INFO ][o.a.l.i.v.PanamaVectorizationProvider] [LAPTOP-4NETS2LE] Java vector incubator API enabled; uses preferredBitSize=512; FMA enabled
+[2025-04-29T10:57:55,164][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] Bootstrapping Entitlements
+[2025-04-29T10:58:02,465][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-url]
+[2025-04-29T10:58:02,466][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rest-root]
+[2025-04-29T10:58:02,468][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-core]
+[2025-04-29T10:58:02,469][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-redact]
+[2025-04-29T10:58:02,469][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-user-agent]
+[2025-04-29T10:58:02,470][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-async-search]
+[2025-04-29T10:58:02,471][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-monitoring]
+[2025-04-29T10:58:02,471][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-s3]
+[2025-04-29T10:58:02,472][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-analytics]
+[2025-04-29T10:58:02,472][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-esql-core]
+[2025-04-29T10:58:02,473][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ent-search]
+[2025-04-29T10:58:02,474][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-autoscaling]
+[2025-04-29T10:58:02,475][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-painless]
+[2025-04-29T10:58:02,476][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ml]
+[2025-04-29T10:58:02,476][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-mustache]
+[2025-04-29T10:58:02,477][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [legacy-geo]
+[2025-04-29T10:58:02,477][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [logsdb]
+[2025-04-29T10:58:02,478][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ql]
+[2025-04-29T10:58:02,478][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-rrf]
+[2025-04-29T10:58:02,478][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [analysis-common]
+[2025-04-29T10:58:02,479][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [health-shards-availability]
+[2025-04-29T10:58:02,479][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [transport-netty4]
+[2025-04-29T10:58:02,479][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [aggregations]
+[2025-04-29T10:58:02,480][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-common]
+[2025-04-29T10:58:02,481][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [frozen-indices]
+[2025-04-29T10:58:02,481][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-identity-provider]
+[2025-04-29T10:58:02,481][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-shutdown]
+[2025-04-29T10:58:02,482][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-text-structure]
+[2025-04-29T10:58:02,482][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [snapshot-repo-test-kit]
+[2025-04-29T10:58:02,483][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ml-package-loader]
+[2025-04-29T10:58:02,483][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [kibana]
+[2025-04-29T10:58:02,483][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [constant-keyword]
+[2025-04-29T10:58:02,484][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-logstash]
+[2025-04-29T10:58:02,487][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ccr]
+[2025-04-29T10:58:02,487][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-graph]
+[2025-04-29T10:58:02,488][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-vectors]
+[2025-04-29T10:58:02,489][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-esql]
+[2025-04-29T10:58:02,489][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [parent-join]
+[2025-04-29T10:58:02,490][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [counted-keyword]
+[2025-04-29T10:58:02,490][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-enrich]
+[2025-04-29T10:58:02,492][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repositories-metering-api]
+[2025-04-29T10:58:02,494][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [transform]
+[2025-04-29T10:58:02,494][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-azure]
+[2025-04-29T10:58:02,495][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [dot-prefix-validation]
+[2025-04-29T10:58:02,495][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-gcs]
+[2025-04-29T10:58:02,496][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [spatial]
+[2025-04-29T10:58:02,496][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-otel-data]
+[2025-04-29T10:58:02,497][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [apm]
+[2025-04-29T10:58:02,497][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [mapper-extras]
+[2025-04-29T10:58:02,497][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [mapper-version]
+[2025-04-29T10:58:02,498][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-rollup]
+[2025-04-29T10:58:02,498][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [percolator]
+[2025-04-29T10:58:02,498][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-migrate]
+[2025-04-29T10:58:02,500][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [data-streams]
+[2025-04-29T10:58:02,501][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-stack]
+[2025-04-29T10:58:02,502][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-eval]
+[2025-04-29T10:58:02,502][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [reindex]
+[2025-04-29T10:58:02,503][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-security]
+[2025-04-29T10:58:02,503][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [blob-cache]
+[2025-04-29T10:58:02,503][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [searchable-snapshots]
+[2025-04-29T10:58:02,504][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-slm]
+[2025-04-29T10:58:02,504][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-geoip-enterprise-downloader]
+[2025-04-29T10:58:02,505][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [snapshot-based-recoveries]
+[2025-04-29T10:58:02,505][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-watcher]
+[2025-04-29T10:58:02,505][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [old-lucene-versions]
+[2025-04-29T10:58:02,506][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ilm]
+[2025-04-29T10:58:02,506][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-inference]
+[2025-04-29T10:58:02,507][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-voting-only-node]
+[2025-04-29T10:58:02,508][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-deprecation]
+[2025-04-29T10:58:02,510][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-fleet]
+[2025-04-29T10:58:02,510][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-aggregate-metric]
+[2025-04-29T10:58:02,510][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-downsample]
+[2025-04-29T10:58:02,510][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-profiling]
+[2025-04-29T10:58:02,510][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-geoip]
+[2025-04-29T10:58:02,512][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-write-load-forecaster]
+[2025-04-29T10:58:02,512][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [search-business-rules]
+[2025-04-29T10:58:02,512][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-attachment]
+[2025-04-29T10:58:02,513][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [wildcard]
+[2025-04-29T10:58:02,513][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-apm-data]
+[2025-04-29T10:58:02,513][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [unsigned-long]
+[2025-04-29T10:58:02,514][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-sql]
+[2025-04-29T10:58:02,516][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [runtime-fields-common]
+[2025-04-29T10:58:02,516][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-async]
+[2025-04-29T10:58:02,516][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [vector-tile]
+[2025-04-29T10:58:02,517][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-kql]
+[2025-04-29T10:58:02,517][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-expression]
+[2025-04-29T10:58:02,517][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-eql]
+[2025-04-29T10:58:04,846][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-4NETS2LE] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [43.8gb], net total_space [119.9gb], types [NTFS]
+[2025-04-29T10:58:04,847][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-4NETS2LE] heap size [3.8gb], compressed ordinary object pointers [true]
+[2025-04-29T10:58:04,995][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] node name [LAPTOP-4NETS2LE], node ID [l79kS5JRTd6b8V4GCleGfQ], cluster name [elasticsearch], roles [data_hot, ml, data_frozen, ingest, data_cold, data, remote_cluster_client, master, data_warm, data_content, transform]
+[2025-04-29T10:58:08,776][INFO ][o.e.i.r.RecoverySettings ] [LAPTOP-4NETS2LE] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2025-04-29T10:58:09,023][INFO ][o.e.f.FeatureService     ] [LAPTOP-4NETS2LE] Registered local node features [ES_V_8, ES_V_9, cluster.reroute.ignores_metric_param, cluster.stats.source_modes, linear_retriever_supported, lucene_10_1_upgrade, lucene_10_upgrade, security.queryable_built_in_roles, simulate.ignored.fields]
+[2025-04-29T10:58:09,089][INFO ][o.e.c.m.DataStreamGlobalRetentionSettings] [LAPTOP-4NETS2LE] Updated default factory retention to [null]
+[2025-04-29T10:58:09,090][INFO ][o.e.c.m.DataStreamGlobalRetentionSettings] [LAPTOP-4NETS2LE] Updated max factory retention to [null]
+[2025-04-29T10:58:09,910][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-4NETS2LE] [controller/24868] [Main.cc@123] controller (64 bit): Version 9.0.0 (Build 3e38bae6bc09bf) Copyright (c) 2025 Elasticsearch BV
+[2025-04-29T10:58:10,542][INFO ][o.e.x.o.OTelPlugin       ] [LAPTOP-4NETS2LE] OTel ingest plugin is enabled
+[2025-04-29T10:58:10,576][INFO ][o.e.x.c.t.YamlTemplateRegistry] [LAPTOP-4NETS2LE] OpenTelemetry index template registry is enabled
+[2025-04-29T10:58:10,583][INFO ][o.e.t.a.APM              ] [LAPTOP-4NETS2LE] Sending apm metrics is disabled
+[2025-04-29T10:58:10,584][INFO ][o.e.t.a.APM              ] [LAPTOP-4NETS2LE] Sending apm tracing is disabled
+[2025-04-29T10:58:10,628][INFO ][o.e.x.s.Security         ] [LAPTOP-4NETS2LE] Security is disabled
+[2025-04-29T10:58:10,954][INFO ][o.e.x.w.Watcher          ] [LAPTOP-4NETS2LE] Watcher initialized components at 2025-04-29T03:58:10.951Z
+[2025-04-29T10:58:11,107][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-4NETS2LE] Profiling is enabled
+[2025-04-29T10:58:11,129][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-4NETS2LE] profiling index templates will not be installed or reinstalled
+[2025-04-29T10:58:11,140][INFO ][o.e.x.a.APMPlugin        ] [LAPTOP-4NETS2LE] APM ingest plugin is enabled
+[2025-04-29T10:58:11,183][INFO ][o.e.x.c.t.YamlTemplateRegistry] [LAPTOP-4NETS2LE] apm index template registry is enabled
+[2025-04-29T10:58:11,982][INFO ][o.e.t.n.NettyAllocator   ] [LAPTOP-4NETS2LE] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2025-04-29T10:58:12,076][INFO ][o.e.d.DiscoveryModule    ] [LAPTOP-4NETS2LE] using discovery type [multi-node] and seed hosts providers [settings]
+[2025-04-29T10:58:13,739][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] initialized
+[2025-04-29T10:58:13,739][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] starting ...
+[2025-04-29T10:58:13,774][INFO ][o.e.x.s.c.f.PersistentCache] [LAPTOP-4NETS2LE] persistent cache index loaded
+[2025-04-29T10:58:13,775][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [LAPTOP-4NETS2LE] deprecation component started
+[2025-04-29T10:58:14,091][INFO ][o.e.t.TransportService   ] [LAPTOP-4NETS2LE] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2025-04-29T10:58:14,814][WARN ][o.e.c.c.ClusterBootstrapService] [LAPTOP-4NETS2LE] this node is locked into cluster UUID [NkFjsKa8ScO_mctgp7RkaQ] but [cluster.initial_master_nodes] is set to [LAPTOP-4NETS2LE]; remove this setting to avoid possible data loss caused by subsequent cluster bootstrap attempts; for further information see https://www.elastic.co/docs/deploy-manage/deploy/self-managed/important-settings-configuration?version=9.0#initial_master_nodes
+[2025-04-29T10:58:14,985][INFO ][o.e.c.s.MasterService    ] [LAPTOP-4NETS2LE] elected-as-master ([1] nodes joined in term 17)[_FINISH_ELECTION_, {LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{ZIM_WJGMT7y_7cXwyVtwug}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000} completing election], term: 17, version: 251, delta: master node changed {previous [], current [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{ZIM_WJGMT7y_7cXwyVtwug}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}]}
+[2025-04-29T10:58:15,259][INFO ][o.e.c.s.ClusterApplierService] [LAPTOP-4NETS2LE] master node changed {previous [], current [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{ZIM_WJGMT7y_7cXwyVtwug}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}]}, term: 17, version: 251, reason: Publication{term=17, version=251}
+[2025-04-29T10:58:15,315][INFO ][o.e.c.c.NodeJoinExecutor ] [LAPTOP-4NETS2LE] node-join: [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{ZIM_WJGMT7y_7cXwyVtwug}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}] with reason [completing election]
+[2025-04-29T10:58:15,321][INFO ][o.e.h.AbstractHttpServerTransport] [LAPTOP-4NETS2LE] publish_address {10.0.4.98:9200}, bound_addresses {[::]:9200}
+[2025-04-29T10:58:15,326][INFO ][o.e.x.w.LicensedWriteLoadForecaster] [LAPTOP-4NETS2LE] license state changed, now [valid]
+[2025-04-29T10:58:15,336][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] started {LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{ZIM_WJGMT7y_7cXwyVtwug}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}{ml.max_jvm_size=4169138176, ml.allocated_processors_double=8.0, ml.allocated_processors=8, ml.machine_memory=8340365312, transform.config_version=10.0.0, xpack.installed=true, ml.config_version=12.0.0}
+[2025-04-29T10:58:15,373][WARN ][o.e.x.i.s.e.a.ElasticInferenceServiceAuthorizationHandler] [LAPTOP-4NETS2LE] Failed to revoke access to default inference endpoint IDs: [rainbow-sprinkles], error: org.elasticsearch.cluster.block.ClusterBlockException: blocked by: [SERVICE_UNAVAILABLE/1/state not recovered / initialized];
+[2025-04-29T10:58:15,786][INFO ][o.e.x.m.MlIndexRollover  ] [LAPTOP-4NETS2LE] ML legacy indices rolled over
+[2025-04-29T10:58:15,787][INFO ][o.e.x.m.MlAnomaliesIndexUpdate] [LAPTOP-4NETS2LE] legacy ml anomalies indices rolled over and aliases updated
+[2025-04-29T10:58:15,968][INFO ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] license [d1233d48-07b9-4ad4-8c80-7cbdf6ae3802] mode [trial] - valid
+[2025-04-29T10:58:15,971][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] starting file watcher ...
+[2025-04-29T10:58:15,979][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] file settings service up and running [tid=88]
+[2025-04-29T10:58:15,981][INFO ][o.e.r.s.FileSettingsService] [LAPTOP-4NETS2LE] setting file [C:\ELK\elasticsearch-9.0.0\config\operator\settings.json] not found, initializing [file_settings] as empty
+[2025-04-29T10:58:15,981][WARN ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] License [will expire] on [Sunday, May 18, 2025].
+# If you have a new license, please update it. Otherwise, please reach out to
+# your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - security
+#  - Cluster health, cluster stats and indices stats operations are blocked
+#  - All data operations (read and write) continue to work
+# - watcher
+#  - PUT / GET watch APIs are disabled, DELETE watch API continues to work
+#  - Watches execute and write to the history
+#  - The actions of the watches don't execute
+# - monitoring
+#  - The agent will stop collecting cluster and indices metrics
+# - graph
+#  - Graph explore APIs are disabled
+# - ml
+#  - Machine learning APIs are disabled
+# - logstash
+#  - Logstash will continue to poll centrally-managed pipelines
+# - beats
+#  - Beats will continue to poll centrally-managed configuration
+# - deprecation
+#  - Deprecation APIs are disabled
+# - upgrade
+#  - Upgrade API is disabled
+# - sql
+#  - SQL support is disabled
+# - enterprise_search
+#  - Search Applications, query rules and behavioral analytics will be disabled
+# - rollup
+#  - Creating and Starting rollup jobs will no longer be allowed.
+#  - Stopping/Deleting existing jobs, RollupCaps API and RollupSearch continue to function.
+# - transform
+#  - Creating, starting, updating transforms will no longer be allowed.
+#  - Stopping/Deleting existing transforms continue to function.
+# - analytics
+#  - Aggregations provided by Analytics plugin are no longer usable.
+# - ccr
+#  - Creating new follower indices will be blocked
+#  - Configuring auto-follow patterns will be blocked
+#  - Auto-follow patterns will no longer discover new leader indices
+#  - The CCR monitoring endpoint will be blocked
+#  - Existing follower indices will continue to replicate data
+# - redact_processor
+#  - Executing a redact processor in an ingest pipeline will fail.
+[2025-04-29T10:58:15,985][WARN ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] License [will expire] on [Sunday, May 18, 2025].
+# If you have a new license, please update it. Otherwise, please reach out to
+# your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - security
+#  - Cluster health, cluster stats and indices stats operations are blocked
+#  - All data operations (read and write) continue to work
+# - watcher
+#  - PUT / GET watch APIs are disabled, DELETE watch API continues to work
+#  - Watches execute and write to the history
+#  - The actions of the watches don't execute
+# - monitoring
+#  - The agent will stop collecting cluster and indices metrics
+# - graph
+#  - Graph explore APIs are disabled
+# - ml
+#  - Machine learning APIs are disabled
+# - logstash
+#  - Logstash will continue to poll centrally-managed pipelines
+# - beats
+#  - Beats will continue to poll centrally-managed configuration
+# - deprecation
+#  - Deprecation APIs are disabled
+# - upgrade
+#  - Upgrade API is disabled
+# - sql
+#  - SQL support is disabled
+# - enterprise_search
+#  - Search Applications, query rules and behavioral analytics will be disabled
+# - rollup
+#  - Creating and Starting rollup jobs will no longer be allowed.
+#  - Stopping/Deleting existing jobs, RollupCaps API and RollupSearch continue to function.
+# - transform
+#  - Creating, starting, updating transforms will no longer be allowed.
+#  - Stopping/Deleting existing transforms continue to function.
+# - analytics
+#  - Aggregations provided by Analytics plugin are no longer usable.
+# - ccr
+#  - Creating new follower indices will be blocked
+#  - Configuring auto-follow patterns will be blocked
+#  - Auto-follow patterns will no longer discover new leader indices
+#  - The CCR monitoring endpoint will be blocked
+#  - Existing follower indices will continue to replicate data
+# - redact_processor
+#  - Executing a redact processor in an ingest pipeline will fail.
+[2025-04-29T10:58:15,990][INFO ][o.e.g.GatewayService     ] [LAPTOP-4NETS2LE] recovered [5] indices into cluster_state
+[2025-04-29T10:58:16,884][INFO ][o.e.h.n.s.HealthNodeTaskExecutor] [LAPTOP-4NETS2LE] Node [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}] is selected as the current health node.
+[2025-04-29T10:58:17,251][INFO ][o.e.c.r.a.AllocationService] [LAPTOP-4NETS2LE] current.health="YELLOW" message="Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.ds-.logs-elasticsearch.deprecation-default-2025.04.18-000001][0]]])." previous.health="RED" reason="shards started [[.ds-.logs-elasticsearch.deprecation-default-2025.04.18-000001][0]]"
+[2025-04-29T17:09:22,668][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] running graceful exit on windows
+[2025-04-29T17:09:22,873][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopping ...
+[2025-04-29T17:09:22,888][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] shutting down watcher thread
+[2025-04-29T17:09:22,920][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] watcher service stopped
+[2025-04-29T17:09:22,979][INFO ][o.e.x.w.WatcherService   ] [LAPTOP-4NETS2LE] stopping watch service, reason [shutdown initiated]
+[2025-04-29T17:09:22,981][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-4NETS2LE] [controller/24868] [Main.cc@176] ML controller exiting
+[2025-04-29T17:09:22,985][INFO ][o.e.x.m.p.NativeController] [LAPTOP-4NETS2LE] Native controller process has stopped - no new native processes can be started
+[2025-04-29T17:09:23,001][INFO ][o.e.x.w.t.s.e.TickerScheduleTriggerEngine] [LAPTOP-4NETS2LE] Stopping watcher engine
+[2025-04-29T17:09:23,002][INFO ][o.e.x.w.WatcherLifeCycleService] [LAPTOP-4NETS2LE] watcher has stopped and shutdown
+[2025-04-29T17:09:24,378][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopped
+[2025-04-29T17:09:24,379][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closing ...
+[2025-04-29T17:09:24,444][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closed
+[2025-04-29T19:51:51,499][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] version[9.0.0], pid[26060], build[zip/112859b85d50de2a7e63f73c8fc70b99eea24291/2025-04-08T15:13:46.049795831Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/24/24+36-3646]
+[2025-04-29T19:51:51,531][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] JVM home [C:\ELK\elasticsearch-9.0.0\jdk], using bundled JDK [true]
+[2025-04-29T19:51:51,533][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=CLDR, -Dorg.apache.lucene.vectorization.upperJavaFeatureVersion=24, -Des.distribution.type=zip, -Des.java.type=bundled JDK, --enable-native-access=org.elasticsearch.nativeaccess,org.apache.lucene.core, --enable-native-access=ALL-UNNAMED, --illegal-native-access=deny, -XX:ReplayDataFile=logs/replay_pid%p.log, -Des.entitlements.enabled=true, -XX:+EnableDynamicAgentLoading, -Djdk.attach.allowAttachSelf=true, --patch-module=java.base=lib\entitlement-bridge\elasticsearch-entitlement-bridge-9.0.0.jar, --add-exports=java.base/org.elasticsearch.entitlement.bridge=org.elasticsearch.entitlement,java.logging,java.net.http,java.naming,jdk.net, -XX:+UseG1GC, -Djava.io.tmpdir=C:\Users\ADMIN\AppData\Local\Temp\elasticsearch, --add-modules=jdk.incubator.vector, -Dorg.apache.lucene.store.defaultReadAdvice=normal, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,level,pid,tags:filecount=32,filesize=64m, -Xms3976m, -Xmx3976m, -XX:MaxDirectMemorySize=2084569088, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, --module-path=C:\ELK\elasticsearch-9.0.0\lib, --add-modules=jdk.net, --add-modules=jdk.management.agent, --add-modules=ALL-MODULE-PATH, -Djdk.module.main=org.elasticsearch.server]
+[2025-04-29T19:51:51,534][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] Default Locale [en_US]
+[2025-04-29T19:51:52,824][INFO ][o.e.n.NativeAccess       ] [LAPTOP-4NETS2LE] Using [jdk] native provider and native methods for [Windows]
+[2025-04-29T19:51:53,333][INFO ][o.a.l.i.v.PanamaVectorizationProvider] [LAPTOP-4NETS2LE] Java vector incubator API enabled; uses preferredBitSize=512; FMA enabled
+[2025-04-29T19:51:53,619][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] Bootstrapping Entitlements
+[2025-04-29T19:53:06,421][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-url]
+[2025-04-29T19:53:06,423][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rest-root]
+[2025-04-29T19:53:06,424][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-core]
+[2025-04-29T19:53:06,426][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-redact]
+[2025-04-29T19:53:06,426][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-user-agent]
+[2025-04-29T19:53:06,427][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-async-search]
+[2025-04-29T19:53:06,427][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-monitoring]
+[2025-04-29T19:53:06,427][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-s3]
+[2025-04-29T19:53:06,428][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-analytics]
+[2025-04-29T19:53:06,428][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-esql-core]
+[2025-04-29T19:53:06,429][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ent-search]
+[2025-04-29T19:53:06,429][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-autoscaling]
+[2025-04-29T19:53:06,429][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-painless]
+[2025-04-29T19:53:06,429][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ml]
+[2025-04-29T19:53:06,430][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-mustache]
+[2025-04-29T19:53:06,431][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [legacy-geo]
+[2025-04-29T19:53:06,431][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [logsdb]
+[2025-04-29T19:53:06,432][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ql]
+[2025-04-29T19:53:06,432][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-rrf]
+[2025-04-29T19:53:06,432][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [analysis-common]
+[2025-04-29T19:53:06,433][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [health-shards-availability]
+[2025-04-29T19:53:06,433][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [transport-netty4]
+[2025-04-29T19:53:06,434][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [aggregations]
+[2025-04-29T19:53:06,434][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-common]
+[2025-04-29T19:53:06,434][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [frozen-indices]
+[2025-04-29T19:53:06,434][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-identity-provider]
+[2025-04-29T19:53:06,435][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-shutdown]
+[2025-04-29T19:53:06,435][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-text-structure]
+[2025-04-29T19:53:06,436][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [snapshot-repo-test-kit]
+[2025-04-29T19:53:06,437][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ml-package-loader]
+[2025-04-29T19:53:06,438][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [kibana]
+[2025-04-29T19:53:06,439][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [constant-keyword]
+[2025-04-29T19:53:06,440][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-logstash]
+[2025-04-29T19:53:06,440][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ccr]
+[2025-04-29T19:53:06,444][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-graph]
+[2025-04-29T19:53:06,444][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-vectors]
+[2025-04-29T19:53:06,445][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-esql]
+[2025-04-29T19:53:06,445][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [parent-join]
+[2025-04-29T19:53:06,445][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [counted-keyword]
+[2025-04-29T19:53:06,446][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-enrich]
+[2025-04-29T19:53:06,446][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repositories-metering-api]
+[2025-04-29T19:53:06,446][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [transform]
+[2025-04-29T19:53:06,447][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-azure]
+[2025-04-29T19:53:06,447][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [dot-prefix-validation]
+[2025-04-29T19:53:06,448][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [repository-gcs]
+[2025-04-29T19:53:06,449][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [spatial]
+[2025-04-29T19:53:06,449][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-otel-data]
+[2025-04-29T19:53:06,450][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [apm]
+[2025-04-29T19:53:06,450][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [mapper-extras]
+[2025-04-29T19:53:06,450][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [mapper-version]
+[2025-04-29T19:53:06,451][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-rollup]
+[2025-04-29T19:53:06,451][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [percolator]
+[2025-04-29T19:53:06,451][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-migrate]
+[2025-04-29T19:53:06,452][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [data-streams]
+[2025-04-29T19:53:06,452][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-stack]
+[2025-04-29T19:53:06,452][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [rank-eval]
+[2025-04-29T19:53:06,453][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [reindex]
+[2025-04-29T19:53:06,453][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-security]
+[2025-04-29T19:53:06,456][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [blob-cache]
+[2025-04-29T19:53:06,459][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [searchable-snapshots]
+[2025-04-29T19:53:06,460][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-slm]
+[2025-04-29T19:53:06,460][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-geoip-enterprise-downloader]
+[2025-04-29T19:53:06,461][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [snapshot-based-recoveries]
+[2025-04-29T19:53:06,461][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-watcher]
+[2025-04-29T19:53:06,462][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [old-lucene-versions]
+[2025-04-29T19:53:06,462][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-ilm]
+[2025-04-29T19:53:06,462][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-inference]
+[2025-04-29T19:53:06,463][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-voting-only-node]
+[2025-04-29T19:53:06,463][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-deprecation]
+[2025-04-29T19:53:06,463][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-fleet]
+[2025-04-29T19:53:06,464][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-aggregate-metric]
+[2025-04-29T19:53:06,464][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-downsample]
+[2025-04-29T19:53:06,465][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-profiling]
+[2025-04-29T19:53:06,465][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-geoip]
+[2025-04-29T19:53:06,465][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-write-load-forecaster]
+[2025-04-29T19:53:06,466][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [search-business-rules]
+[2025-04-29T19:53:06,466][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [ingest-attachment]
+[2025-04-29T19:53:06,466][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [wildcard]
+[2025-04-29T19:53:06,467][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-apm-data]
+[2025-04-29T19:53:06,467][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [unsigned-long]
+[2025-04-29T19:53:06,467][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-sql]
+[2025-04-29T19:53:06,468][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [runtime-fields-common]
+[2025-04-29T19:53:06,468][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-async]
+[2025-04-29T19:53:06,468][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [vector-tile]
+[2025-04-29T19:53:06,469][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-kql]
+[2025-04-29T19:53:06,469][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [lang-expression]
+[2025-04-29T19:53:06,470][INFO ][o.e.p.PluginsService     ] [LAPTOP-4NETS2LE] loaded module [x-pack-eql]
+[2025-04-29T19:53:08,659][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-4NETS2LE] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [43.3gb], net total_space [119.9gb], types [NTFS]
+[2025-04-29T19:53:08,660][INFO ][o.e.e.NodeEnvironment    ] [LAPTOP-4NETS2LE] heap size [3.8gb], compressed ordinary object pointers [true]
+[2025-04-29T19:53:08,808][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] node name [LAPTOP-4NETS2LE], node ID [l79kS5JRTd6b8V4GCleGfQ], cluster name [elasticsearch], roles [data_warm, data_content, transform, data_hot, ml, data_frozen, ingest, data_cold, data, remote_cluster_client, master]
+[2025-04-29T19:53:12,730][INFO ][o.e.i.r.RecoverySettings ] [LAPTOP-4NETS2LE] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2025-04-29T19:53:12,979][INFO ][o.e.f.FeatureService     ] [LAPTOP-4NETS2LE] Registered local node features [ES_V_8, ES_V_9, cluster.reroute.ignores_metric_param, cluster.stats.source_modes, linear_retriever_supported, lucene_10_1_upgrade, lucene_10_upgrade, security.queryable_built_in_roles, simulate.ignored.fields]
+[2025-04-29T19:53:13,040][INFO ][o.e.c.m.DataStreamGlobalRetentionSettings] [LAPTOP-4NETS2LE] Updated default factory retention to [null]
+[2025-04-29T19:53:13,041][INFO ][o.e.c.m.DataStreamGlobalRetentionSettings] [LAPTOP-4NETS2LE] Updated max factory retention to [null]
+[2025-04-29T19:53:13,857][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-4NETS2LE] [controller/26564] [Main.cc@123] controller (64 bit): Version 9.0.0 (Build 3e38bae6bc09bf) Copyright (c) 2025 Elasticsearch BV
+[2025-04-29T19:53:14,503][INFO ][o.e.x.o.OTelPlugin       ] [LAPTOP-4NETS2LE] OTel ingest plugin is enabled
+[2025-04-29T19:53:14,541][INFO ][o.e.x.c.t.YamlTemplateRegistry] [LAPTOP-4NETS2LE] OpenTelemetry index template registry is enabled
+[2025-04-29T19:53:14,549][INFO ][o.e.t.a.APM              ] [LAPTOP-4NETS2LE] Sending apm metrics is disabled
+[2025-04-29T19:53:14,550][INFO ][o.e.t.a.APM              ] [LAPTOP-4NETS2LE] Sending apm tracing is disabled
+[2025-04-29T19:53:14,602][INFO ][o.e.x.s.Security         ] [LAPTOP-4NETS2LE] Security is disabled
+[2025-04-29T19:53:14,971][INFO ][o.e.x.w.Watcher          ] [LAPTOP-4NETS2LE] Watcher initialized components at 2025-04-29T12:53:14.970Z
+[2025-04-29T19:53:15,164][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-4NETS2LE] Profiling is enabled
+[2025-04-29T19:53:15,188][INFO ][o.e.x.p.ProfilingPlugin  ] [LAPTOP-4NETS2LE] profiling index templates will not be installed or reinstalled
+[2025-04-29T19:53:15,199][INFO ][o.e.x.a.APMPlugin        ] [LAPTOP-4NETS2LE] APM ingest plugin is enabled
+[2025-04-29T19:53:15,246][INFO ][o.e.x.c.t.YamlTemplateRegistry] [LAPTOP-4NETS2LE] apm index template registry is enabled
+[2025-04-29T19:53:16,296][INFO ][o.e.t.n.NettyAllocator   ] [LAPTOP-4NETS2LE] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2025-04-29T19:53:16,380][INFO ][o.e.d.DiscoveryModule    ] [LAPTOP-4NETS2LE] using discovery type [multi-node] and seed hosts providers [settings]
+[2025-04-29T19:53:18,091][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] initialized
+[2025-04-29T19:53:18,093][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] starting ...
+[2025-04-29T19:53:18,136][INFO ][o.e.x.s.c.f.PersistentCache] [LAPTOP-4NETS2LE] persistent cache index loaded
+[2025-04-29T19:53:18,142][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [LAPTOP-4NETS2LE] deprecation component started
+[2025-04-29T19:53:18,300][INFO ][o.e.t.TransportService   ] [LAPTOP-4NETS2LE] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2025-04-29T19:53:19,402][WARN ][o.e.c.c.ClusterBootstrapService] [LAPTOP-4NETS2LE] this node is locked into cluster UUID [NkFjsKa8ScO_mctgp7RkaQ] but [cluster.initial_master_nodes] is set to [LAPTOP-4NETS2LE]; remove this setting to avoid possible data loss caused by subsequent cluster bootstrap attempts; for further information see https://www.elastic.co/docs/deploy-manage/deploy/self-managed/important-settings-configuration?version=9.0#initial_master_nodes
+[2025-04-29T19:53:19,560][INFO ][o.e.c.s.MasterService    ] [LAPTOP-4NETS2LE] elected-as-master ([1] nodes joined in term 18)[_FINISH_ELECTION_, {LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{fnE8elNSTZuSEQMB2jNujQ}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000} completing election], term: 18, version: 261, delta: master node changed {previous [], current [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{fnE8elNSTZuSEQMB2jNujQ}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}]}
+[2025-04-29T19:53:19,797][INFO ][o.e.c.s.ClusterApplierService] [LAPTOP-4NETS2LE] master node changed {previous [], current [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{fnE8elNSTZuSEQMB2jNujQ}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}]}, term: 18, version: 261, reason: Publication{term=18, version=261}
+[2025-04-29T19:53:19,878][INFO ][o.e.c.c.NodeJoinExecutor ] [LAPTOP-4NETS2LE] node-join: [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{fnE8elNSTZuSEQMB2jNujQ}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}] with reason [completing election]
+[2025-04-29T19:53:19,883][INFO ][o.e.h.AbstractHttpServerTransport] [LAPTOP-4NETS2LE] publish_address {192.168.1.6:9200}, bound_addresses {[::]:9200}
+[2025-04-29T19:53:19,890][INFO ][o.e.x.w.LicensedWriteLoadForecaster] [LAPTOP-4NETS2LE] license state changed, now [valid]
+[2025-04-29T19:53:19,901][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] started {LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}{fnE8elNSTZuSEQMB2jNujQ}{LAPTOP-4NETS2LE}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{9.0.0}{8000099-9009000}{xpack.installed=true, ml.config_version=12.0.0, ml.max_jvm_size=4169138176, ml.allocated_processors_double=8.0, ml.allocated_processors=8, ml.machine_memory=8340365312, transform.config_version=10.0.0}
+[2025-04-29T19:53:19,942][WARN ][o.e.x.i.s.e.a.ElasticInferenceServiceAuthorizationHandler] [LAPTOP-4NETS2LE] Failed to revoke access to default inference endpoint IDs: [rainbow-sprinkles], error: org.elasticsearch.cluster.block.ClusterBlockException: blocked by: [SERVICE_UNAVAILABLE/1/state not recovered / initialized];
+[2025-04-29T19:53:20,447][INFO ][o.e.x.m.MlIndexRollover  ] [LAPTOP-4NETS2LE] ML legacy indices rolled over
+[2025-04-29T19:53:20,449][INFO ][o.e.x.m.MlAnomaliesIndexUpdate] [LAPTOP-4NETS2LE] legacy ml anomalies indices rolled over and aliases updated
+[2025-04-29T19:53:20,565][INFO ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] license [d1233d48-07b9-4ad4-8c80-7cbdf6ae3802] mode [trial] - valid
+[2025-04-29T19:53:20,569][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] starting file watcher ...
+[2025-04-29T19:53:20,582][WARN ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] License [will expire] on [Sunday, May 18, 2025].
+# If you have a new license, please update it. Otherwise, please reach out to
+# your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - security
+#  - Cluster health, cluster stats and indices stats operations are blocked
+#  - All data operations (read and write) continue to work
+# - watcher
+#  - PUT / GET watch APIs are disabled, DELETE watch API continues to work
+#  - Watches execute and write to the history
+#  - The actions of the watches don't execute
+# - monitoring
+#  - The agent will stop collecting cluster and indices metrics
+# - graph
+#  - Graph explore APIs are disabled
+# - ml
+#  - Machine learning APIs are disabled
+# - logstash
+#  - Logstash will continue to poll centrally-managed pipelines
+# - beats
+#  - Beats will continue to poll centrally-managed configuration
+# - deprecation
+#  - Deprecation APIs are disabled
+# - upgrade
+#  - Upgrade API is disabled
+# - sql
+#  - SQL support is disabled
+# - enterprise_search
+#  - Search Applications, query rules and behavioral analytics will be disabled
+# - rollup
+#  - Creating and Starting rollup jobs will no longer be allowed.
+#  - Stopping/Deleting existing jobs, RollupCaps API and RollupSearch continue to function.
+# - transform
+#  - Creating, starting, updating transforms will no longer be allowed.
+#  - Stopping/Deleting existing transforms continue to function.
+# - analytics
+#  - Aggregations provided by Analytics plugin are no longer usable.
+# - ccr
+#  - Creating new follower indices will be blocked
+#  - Configuring auto-follow patterns will be blocked
+#  - Auto-follow patterns will no longer discover new leader indices
+#  - The CCR monitoring endpoint will be blocked
+#  - Existing follower indices will continue to replicate data
+# - redact_processor
+#  - Executing a redact processor in an ingest pipeline will fail.
+[2025-04-29T19:53:20,585][WARN ][o.e.l.ClusterStateLicenseService] [LAPTOP-4NETS2LE] License [will expire] on [Sunday, May 18, 2025].
+# If you have a new license, please update it. Otherwise, please reach out to
+# your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - security
+#  - Cluster health, cluster stats and indices stats operations are blocked
+#  - All data operations (read and write) continue to work
+# - watcher
+#  - PUT / GET watch APIs are disabled, DELETE watch API continues to work
+#  - Watches execute and write to the history
+#  - The actions of the watches don't execute
+# - monitoring
+#  - The agent will stop collecting cluster and indices metrics
+# - graph
+#  - Graph explore APIs are disabled
+# - ml
+#  - Machine learning APIs are disabled
+# - logstash
+#  - Logstash will continue to poll centrally-managed pipelines
+# - beats
+#  - Beats will continue to poll centrally-managed configuration
+# - deprecation
+#  - Deprecation APIs are disabled
+# - upgrade
+#  - Upgrade API is disabled
+# - sql
+#  - SQL support is disabled
+# - enterprise_search
+#  - Search Applications, query rules and behavioral analytics will be disabled
+# - rollup
+#  - Creating and Starting rollup jobs will no longer be allowed.
+#  - Stopping/Deleting existing jobs, RollupCaps API and RollupSearch continue to function.
+# - transform
+#  - Creating, starting, updating transforms will no longer be allowed.
+#  - Stopping/Deleting existing transforms continue to function.
+# - analytics
+#  - Aggregations provided by Analytics plugin are no longer usable.
+# - ccr
+#  - Creating new follower indices will be blocked
+#  - Configuring auto-follow patterns will be blocked
+#  - Auto-follow patterns will no longer discover new leader indices
+#  - The CCR monitoring endpoint will be blocked
+#  - Existing follower indices will continue to replicate data
+# - redact_processor
+#  - Executing a redact processor in an ingest pipeline will fail.
+[2025-04-29T19:53:20,586][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] file settings service up and running [tid=90]
+[2025-04-29T19:53:20,589][INFO ][o.e.r.s.FileSettingsService] [LAPTOP-4NETS2LE] setting file [C:\ELK\elasticsearch-9.0.0\config\operator\settings.json] not found, initializing [file_settings] as empty
+[2025-04-29T19:53:20,591][INFO ][o.e.g.GatewayService     ] [LAPTOP-4NETS2LE] recovered [5] indices into cluster_state
+[2025-04-29T19:53:21,512][INFO ][o.e.h.n.s.HealthNodeTaskExecutor] [LAPTOP-4NETS2LE] Node [{LAPTOP-4NETS2LE}{l79kS5JRTd6b8V4GCleGfQ}] is selected as the current health node.
+[2025-04-29T19:53:21,836][INFO ][o.e.c.r.a.AllocationService] [LAPTOP-4NETS2LE] current.health="YELLOW" message="Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.ds-.logs-elasticsearch.deprecation-default-2025.04.18-000001][0]]])." previous.health="RED" reason="shards started [[.ds-.logs-elasticsearch.deprecation-default-2025.04.18-000001][0]]"
+[2025-04-29T20:52:56,402][INFO ][o.e.b.Elasticsearch      ] [LAPTOP-4NETS2LE] running graceful exit on windows
+[2025-04-29T20:52:56,641][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopping ...
+[2025-04-29T20:52:56,658][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] shutting down watcher thread
+[2025-04-29T20:52:56,687][INFO ][o.e.c.f.AbstractFileWatchingService] [LAPTOP-4NETS2LE] watcher service stopped
+[2025-04-29T20:52:56,779][INFO ][o.e.x.w.WatcherService   ] [LAPTOP-4NETS2LE] stopping watch service, reason [shutdown initiated]
+[2025-04-29T20:52:56,799][INFO ][o.e.x.w.t.s.e.TickerScheduleTriggerEngine] [LAPTOP-4NETS2LE] Stopping watcher engine
+[2025-04-29T20:52:56,801][INFO ][o.e.x.w.WatcherLifeCycleService] [LAPTOP-4NETS2LE] watcher has stopped and shutdown
+[2025-04-29T20:52:56,802][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [LAPTOP-4NETS2LE] [controller/26564] [Main.cc@176] ML controller exiting
+[2025-04-29T20:52:56,805][INFO ][o.e.x.m.p.NativeController] [LAPTOP-4NETS2LE] Native controller process has stopped - no new native processes can be started
+[2025-04-29T20:52:58,869][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] stopped
+[2025-04-29T20:52:58,870][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closing ...
+[2025-04-29T20:52:59,189][INFO ][o.e.n.Node               ] [LAPTOP-4NETS2LE] closed

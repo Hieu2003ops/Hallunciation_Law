@@ -1,0 +1,8 @@
+    raw = response.content
+
+    # --- Post-process: tách chỉ phần trả lời ---
+    marker = "### 📝 Trả lời:"
+    if marker in raw:
+        rag_answer = raw.split(marker, 1)[1].strip()
+    else:
+        rag_answer = raw.strip()
